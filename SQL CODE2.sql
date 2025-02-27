@@ -8,7 +8,7 @@ role varchar(20) default null,
 city varchar(25),
 country varchar(25),
 primary key(empid));
-
+-- added commnet 
 DELIMITER //;
 create procedure hplus.insertEmployeeRecord(
 IN in_id int,
